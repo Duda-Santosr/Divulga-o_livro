@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Elsie:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Elsie:wght@400;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FCFAF5;
+}
+
+header img{
+   width: 100%;
+}
+
+nav{
+    background-color: #075A4D;
+    padding: 15px 122px;
+    margin-top: -5px;
+}
+nav a{
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+    padding: 92px;
+    font-family: "Elsie", serif;
+}
+
+#principal img{
+    width: 100%;
+}
+
+#principal h1{
+    font-family: "Elsie", serif;
+    color:#F9F2D8;
+    margin-top: -500px;
+    font-size: 75px;
+    margin-left: 18%;
+    align-items: center;
+}
+
+#information img{
+    width: 20%;
+    margin-top: 200px;
+    margin-left: 30px;
+}
+
+#information h2{
+    color: #075A4D;
+    font-family: "Elsie", serif;
+    margin-left:530px;
+    margin-top: -350px;
+    font-size: xx-large;
+}
+
+#information p{
+    width: 550px;
+    margin-left: 530px;
+    margin-top: 15px;
+    font-size: larger;
+    font-family: "Poppins", serif;
+}
+
+#key-benefits img{
+    width: 100%;
+    margin-top: 200px;
+}
+
+
+#key-benefits h2{
+    font-family: "Elsie", serif;
+    margin-left: 500px;
+    margin-top: -1230px;
+    font-size: xx-large;
+}
+
+.benefits {
+    display: flex;
+    justify-content: space-around;
+    padding: 4em;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.benefit{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 20%;
+}
+
+.benefit p{
+    text-align: center;
+}
+
+.benefit .benefit-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 1em;
+}
+#benefit-1 {
+    background-image: url("img/Evelyn\ Hugo.jpg");
+    margin-left: 620px;
+}
+
+#benefit-2 {
+    background-image: url("img/Ernie\ Diaz.jpg");
+    margin-top: 350px;
+    margin-right: 500px;
+}
+  
+#benefit-3 {
+    background-image: url("img/Don\ Adler.jpg");
+    margin-top: 350px;
+    margin-right: 240px;
+}
+#benefit-4 {
+    background-image: url("img/Mick\ Riva.jpg");
+    margin-top: 350px;
+    margin-right: 50px;
+}
+  
+#benefit-5 {
+    background-image: url("img/rexnorth.jpg");
+    margin-top: 350px;
+    margin-right: -300px;
+}
+  
+#benefit-6 {
+    background-image: url("img/Harry\ Cameron.jpg");
+    margin-top: 700px;
+    margin-right: 1650px;
+}
+
+#benefit-7 {
+    background-image: url("img/max.jpg");
+    margin-top: 700px;
+    margin-right: 1400px;
+}
+#benefit-8 {
+    background-image: url("img/robert.jpg");
+    margin-top: 700px;
+    margin-right: 1200px;
+}
+#benefit-9 {
+    background-image: url("img/Celia\ St.\ James.jpg");
+    margin-top: 700px;
+    margin-right: 1000px;
+}
+.autora h2{
+    font-family: "Elsie", serif;
+    color: #075A4D;
+    font-size: xx-large;
+    margin-top: 150px;
+    margin-left: 100px;
+}
+
+.autora p{
+    width: 550px;
+    font-size: larger;
+    font-family: "Poppins",serif;
+    margin-left: 100px;
+    margin-top: 15px;
+}
+
+.autora img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 1em;
+    margin-top: -270px;
+    margin-left: 790px;
+}
+
+.autora h3{
+    font-family: "Elsie", serif;
+    color: #075A4D;
+    font-size: xx-large;
+    margin-top: -15px;
+    margin-left: 790px;
+}
+
+.cta h2{
+    font-family: "Elsie", serif;
+    font-size: 80px;
+    margin-top: -450px;
+    position: relative;
+    text-align: center;
+}
+
+.cta img{
+    width: 100%;
+    filter: opacity(70%);
+}
+
+.btn{
+    width: 30%;
+      border: none;
+      font-weight: 600;
+      font-size: 1.2em;
+      position: relative;
+      font-family: "Elsie", serif;
+      margin-left: 450px;
+      border-radius: 8px;
+      margin-top: 10px;
+      padding: 10px;
+}
+
+
+/* Footer */
+#footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    background-color: #075A4D;
+    margin-top: 220px;
+}
+
+#footer h3 {
+    font-size: 1.8em;
+    margin-bottom: 0.5em;
+    font-family: "Elsie", serif;
+}
+
+#footer p:nth-child(2) {
+    margin-bottom: 1em;
+    font-size: 1.2em;
+    font-family: "Poppins", serif;
+}
+
+#footer span {
+    font-weight: bold;
+    align-content: center;
+}
