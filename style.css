@@ -45,6 +45,7 @@ nav a{
     width: 20%;
     margin-top: 200px;
     margin-left: 30px;
+    border-radius: 8px;
 }
 
 #information h2{
@@ -83,6 +84,7 @@ nav a{
     width: 80%;
     margin: 0 auto;
     text-align: center;
+    
 }
 
 .benefit{
@@ -91,6 +93,7 @@ nav a{
     flex-direction: column;
     align-items: center;
     max-width: 20%;
+    z-index: 2;
 }
 
 .benefit p{
@@ -109,11 +112,19 @@ nav a{
     background-image: url("img/Evelyn\ Hugo.jpg");
     margin-left: 620px;
 }
+#benefit-1 p{
+    text-align: center;
+    margin-top: 270px;
+}
 
 #benefit-2 {
     background-image: url("img/Ernie\ Diaz.jpg");
     margin-top: 350px;
     margin-right: 500px;
+}
+#benefit-2 p{
+    text-align: center;
+    margin-top: 270px;
 }
   
 #benefit-3 {
@@ -121,16 +132,30 @@ nav a{
     margin-top: 350px;
     margin-right: 240px;
 }
+#benefit-3 p{
+    text-align: center;
+    margin-top: 270px;
+}
+
 #benefit-4 {
     background-image: url("img/Mick\ Riva.jpg");
     margin-top: 350px;
     margin-right: 50px;
 }
+#benefit-4 p{
+    text-align: center;
+    margin-top: 270px;
+}
+
   
 #benefit-5 {
     background-image: url("img/rexnorth.jpg");
     margin-top: 350px;
     margin-right: -300px;
+}
+#benefit-5 p{
+    text-align: center;
+    margin-top: 270px;
 }
   
 #benefit-6 {
@@ -138,22 +163,41 @@ nav a{
     margin-top: 700px;
     margin-right: 1650px;
 }
+#benefit-6 p{
+    text-align: center;
+    margin-top: 270px;
+}
 
 #benefit-7 {
     background-image: url("img/max.jpg");
     margin-top: 700px;
     margin-right: 1400px;
 }
+#benefit-7 p{
+    text-align: center;
+    margin-top: 270px;
+}
+
 #benefit-8 {
     background-image: url("img/robert.jpg");
     margin-top: 700px;
     margin-right: 1200px;
 }
+#benefit-8 p{
+    text-align: center;
+    margin-top: 270px;
+}
+
 #benefit-9 {
     background-image: url("img/Celia\ St.\ James.jpg");
     margin-top: 700px;
     margin-right: 1000px;
 }
+#benefit-9 p{
+    text-align: center;
+    margin-top: 270px;
+}
+
 .autora h2{
     font-family: "Elsie", serif;
     color: #075A4D;
@@ -189,6 +233,13 @@ nav a{
     margin-left: 790px;
 }
 
+#ava{
+    color: #075A4D;
+    font-size: xx-large;
+    font-family: "Elsie", serif;
+    text-align: center;
+    margin-top: 70px;
+}
 /* Avaliações */
 .opn1 {
     background-color: #fff;
@@ -207,6 +258,23 @@ nav a{
     width: 80%;
     margin: 20px auto;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.251);
+    color: #fff;
+}
+.opn1 h3{
+    font-family: "Elsie", serif;
+    color: #fff;
+    margin-top: -55px;
+    margin-left: 10px;
+    display: block;
+}
+.opn1 #stars{
+    width: 100px;
+    margin-top: -20px;
+    margin-left: -80px;
+}
+.opn1 p{
+    margin-top: 100px;
+    margin-left:-120px;
     color: #fff;
 }
 
@@ -229,6 +297,23 @@ nav a{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.251);
     color: #fff;
 }
+.opn2 h3{
+    font-family: "Elsie", serif;
+    color: #fff;
+    margin-top: -70px;
+    margin-left: 15px;
+    display: block;
+}
+.opn2 #stars{
+    width: 100px;
+    margin-top: -30px;
+    margin-left: -45px;
+}
+.opn2 p{
+    margin-top: 100px;
+    margin-left:-120px;
+    color: #fff;
+}
 
 .opn3{
     background-color: #fff;
@@ -249,6 +334,24 @@ nav a{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.251);
     color: #fff;
 }
+.opn3 h3{
+    font-family: "Elsie", serif;
+    color: #fff;
+    margin-top: -70px;
+    margin-left: 15px;
+    display: block;
+}
+.opn3 #stars{
+    width: 100px;
+    margin-top: -30px;
+    margin-left: -77px;
+}
+.opn3 p{
+    margin-top: 90px;
+    margin-left:-120px;
+    color: #fff;
+}
+
 
 #user {
     width: 40px;
@@ -256,25 +359,7 @@ nav a{
     border-radius: 50px;
 }
 
-#stars{
-    width: 100px;
-    margin-top: -10px;
-}
 
-.avaliacoes h3{
-    font-family: "Cormorant SC", serif;
-    color: #fff;
-    margin-top: -40px;
-    margin-right: 10px;
-    display: block;
-    
-}
-
-.avaliacoes p{
-    margin-top: 70px;
-    margin-left: -200px;
-    color: #fff;
-}
 
 .cta h2{
     font-family: "Elsie", serif;
@@ -328,4 +413,10 @@ nav a{
 #footer span {
     font-weight: bold;
     align-content: center;
+}
+
+.quebo {
+    opacity: 0.5;
+    
+    
 }
