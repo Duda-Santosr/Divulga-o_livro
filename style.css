@@ -189,6 +189,93 @@ nav a{
     margin-left: 790px;
 }
 
+/* Avaliações */
+.opn1 {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #075A4D;
+    border-radius: 10px;
+    width: 80%;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.251);
+    color: #fff;
+}
+
+.opn2{
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #075A4D;
+    border-radius: 10px;
+    width: 80%;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.251);
+    color: #fff;
+}
+
+.opn3{
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #075A4D;
+    border-radius: 10px;
+    width: 80%;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.251);
+    color: #fff;
+}
+
+#user {
+    width: 40px;
+    margin-top: -40px;
+    border-radius: 50px;
+}
+
+#stars{
+    width: 100px;
+    margin-top: -10px;
+}
+
+.avaliacoes h3{
+    font-family: "Cormorant SC", serif;
+    color: #fff;
+    margin-top: -40px;
+    margin-right: 10px;
+    display: block;
+    
+}
+
+.avaliacoes p{
+    margin-top: 70px;
+    margin-left: -200px;
+    color: #fff;
+}
+
 .cta h2{
     font-family: "Elsie", serif;
     font-size: 80px;
