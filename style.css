@@ -487,7 +487,7 @@ nav a{
     animation: mexer 0.5s ease-in-out 1;
 }
 
-@media(max-width: 450px){
+@media(max-width: 320px){
     .item.ativo img.fruta{
         width: 100%;
         height: 530px;
@@ -651,7 +651,7 @@ nav a{
     }
 
     .autora p{
-       width: 180px;
+       width: 160px;
        margin-left: 20px;
        font-size: xx-small;
     }
@@ -659,10 +659,113 @@ nav a{
     .autora img{
         flex-direction: column;
         align-items: center;
-        margin-left: 180px;
-        width: 120px;
-        height: 120px;
-        margin-top: -250px;
+        margin-left: 200px;
+        width: 100px;
+        height: 100px;
+        margin-top: -290px;
+    }
+
+    .autora h3{
+        font-size: small;
+        margin-left: 170px;
+        margin-top: -15px;
+        text-align: center;
+    }
+
+    #ava{
+        font-size: x-large;
+    }
+
+    .opn1 h3{
+        margin-top: -50px;
+        font-size: small;
+    }
+    .opn1 p{
+        margin-top: 20px;
+        font-size: xx-small;
+    }
+
+    .opn1 #user{
+        width: 20px;
+        height: 20px;
+        margin-top: -50px;
+    }
+
+    .opn1 #stars{
+        width: 60px;
+        height: 50px;
+        margin-left: 7px;
+        margin-top: -50px;
+    }
+
+    .opn2 h3{
+        margin-top: -80px;
+        font-size: small;
+    }
+    .opn2 p{
+        margin-top: 20px;
+        font-size: xx-small;
+        width: 500px;
+    }
+
+    .opn2 #stars{
+        width: 60px;
+        height: 50px;
+        margin-left: 7px;
+        margin-top: -80px;
+    }
+    .opn2 #user{
+        width: 20px;
+        height: 20px;
+        margin-top: -90px;
+    }
+
+    .opn3 h3{
+        margin-top: -150px;
+        font-size: small;
+    }
+    .opn3 p{
+        margin-top: 20px;
+        font-size: xx-small;
+    }
+
+
+    .opn3 #stars{
+        width: 60px;
+        height: 50px;
+        margin-left: 7px;
+        margin-top: -150px;
+    }
+
+    .opn3 #user{
+        width: 20px;
+        height: 20px;
+        margin-top: -150px;
+    }
+
+    .cta h2{
+        font-size: medium;
+        margin-top: -100px;
+    }
+
+    .btn{
+        width: 50px;
+        font-size: xx-small;
+        margin-left: 130px;
+    }
+
+    #footer{
+        margin-top: 20px;
+    }
+    #footer h3{
+        font-size: medium;
+    }
+
+    #footer span{
+        font-size: xx-small;
+    }
+    #footer p:nth-child(2){
+        font-size: xx-small;
     }
   
 }
